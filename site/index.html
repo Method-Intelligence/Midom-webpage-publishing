@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="styles.css">
   <script src="main.js" defer></script>
   <script src="screenshots.js" defer></script>
+<style>
+.early-proof{margin-top:34px;margin-bottom:24px;padding:28px;border:1px solid #85e4ff42;border-radius:20px;background:radial-gradient(ellipse at top right,#174e7459,transparent 75%),#0a2033}.early-proof-intro{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:end}.early-proof h2{font-size:clamp(25px,3vw,38px);line-height:1.1;margin:10px 0 0}.early-proof-intro>p{color:#bfd2df;font-size:16px;line-height:1.6;margin:0}.early-proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:24px}.early-proof figure{margin:0;min-width:0;padding:16px;border:1px solid #85e4ff30;border-radius:12px;background:#071827}.early-proof img{display:block;width:100%;height:180px;object-fit:contain;background:#eef0f4;border-radius:6px;margin:13px 0}.early-proof figcaption{font-size:14px;line-height:1.6;color:#bfd2df}.early-proof a{color:#a2edff}.memo-example{padding:18px 20px;background:#123750;border:1px solid #85e4ff42;border-radius:12px;margin:18px 0}.memo-example blockquote{margin:10px 0;font-size:19px;line-height:1.5;color:#fff}.memo-example p{font-size:14px;line-height:1.6;margin:0;color:#bfd2df}@media(max-width:700px){.early-proof-intro,.early-proof-grid{grid-template-columns:1fr}.early-proof{padding:20px}.early-proof img{height:160px}}
+</style>
 </head>
 
 <body>
@@ -63,6 +66,12 @@
     <div class="proof-strip wrap">
       <span><b>01</b> Conversational creation</span><span><b>02</b> Reviewable checkpoints</span><span><b>03</b> Independent public hosting</span>
     </div>
+
+    <section class="wrap early-proof" aria-labelledby="early-proof-title">
+      <div class="early-proof-intro"><div><p class="eyebrow">A REAL PAGE. A REAL PUBLIC ADDRESS.</p><h2 id="early-proof-title">This page made the journey.</h2></div><p>Created in Midom, exported to a GitHub repository, and hosted publicly with GitHub Pages. These are screenshots from the actual process.</p></div>
+      <div class="early-proof-grid"><figure><div class="tiny-label">01 · EXPORTED FROM MIDOM</div><a href="#real-process" aria-label="Explore the actual Midom export screenshots"><img src="../assets/midom-export-success.jpg" alt="Midom confirms a successful export to the Midom webpage publishing GitHub repository." width="2080" height="397"></a><figcaption>A confirmed export, with a repository and public page destination.</figcaption></figure><figure><div class="tiny-label">02 · LIVE ON GITHUB PAGES</div><a href="https://method-intelligence.github.io/Midom-webpage-publishing/" target="_blank" rel="noopener" aria-label="Visit the published version on GitHub Pages"><img src="../assets/github-live-page.jpg" alt="The published Midom explainer page running on GitHub Pages." width="1210" height="954"></a><figcaption>Your page gets a public address you can share. <a href="https://method-intelligence.github.io/Midom-webpage-publishing/" target="_blank" rel="noopener">Visit the published version ↗</a></figcaption></figure></div>
+      <p class="micro">The published version may differ from the draft you’re viewing. <a href="#real-process">Follow the full journey and inspect the screenshots ↓</a></p>
+    </section>
     <section class="section wrap" id="walkthrough">
       <div class="section-heading">
         <div>
@@ -107,7 +116,8 @@
             works.”</p>
           <p>Your external agent can work with Midom’s WebMCP site tools to read authorized page context, propose
             changes for review, or apply draft edits. You preview the result and keep the conversation moving.</p>
-          <div class="memo-guidance" style="border-left:2px solid #85e4ff;padding-left:18px;margin:25px 0"><h3 style="font-size:23px;line-height:1.2;margin-bottom:12px">Give the conversation a deeper brief.</h3><p>Midom Memos are text documents that can hold extended background, source material and instructions for the page you want to create. Select the Project Memos your external agent may read, so it can work from your audience brief, brand guidance, detailed explanations or page requirements.</p><p class="muted">Choose the guidance under your Project’s <b>Agent References</b>, then enable <b>Allow selected Project Memos</b> for the agent session. You share the selected guidance—not every document in the workspace. Memo access supplies context; publishing remains a separate permission.</p></div>
+          <div class="memo-guidance" style="border-left:2px solid #85e4ff;padding-left:18px;margin:25px 0"><h3 style="font-size:23px;line-height:1.2;margin-bottom:12px">Give the conversation a deeper brief.</h3><p>Midom Memos are text documents that can hold extended background, source material and instructions for the page you want to create. Select the Project Memos your external agent may read, so it can work from your audience brief, brand guidance, detailed explanations or page requirements.</p><div class="memo-example"><span class="tiny-label">TRY A BRIEF LIKE THIS</span><blockquote>“Use my audience brief and brand Memo to create a six-step guide. Explain it for first-time visitors and use our blue visual style.”</blockquote><p>Select the Memos that supply the background. Then use the conversation to shape the page.</p></div>
+<p class="muted">Choose the guidance under your Project’s <b>Agent References</b>, then enable <b>Allow selected Project Memos</b> for the agent session. You share the selected guidance—not every document in the workspace. Memo access supplies context; publishing remains a separate permission.</p></div>
           <p class="muted">The resident knowledge assistant can explain the editor, too. Manual source editing remains
             available.</p>
         </div>
