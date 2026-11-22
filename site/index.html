@@ -9,6 +9,7 @@
   <title>From conversation to public page | Midom</title>
   <link rel="stylesheet" href="styles.css">
   <script src="main.js" defer></script>
+  <script src="screenshots.js" defer></script>
 </head>
 
 <body>
@@ -28,7 +29,7 @@
           versions. Then share inside Midom—or export directly to GitHub Pages.</p>
         <div class="actions"><a class="button primary" href="#walkthrough">Explore the process <span>↓</span></a><a
             class="text-link" href="#github">See the GitHub path ↗</a></div>
-        <p class="micro">Work privately. Review deliberately. Publish when ready.</p>
+        <p class="micro">Work privately. Review deliberately. Publish when ready.</p><a class="live-proof-link" href="#real-process">See this page’s real journey to GitHub Pages ↗</a>
       </div>
       <div class="hero-art" role="img"
         aria-label="Illustration: a conversation becomes a saved Midom page, then an export to GitHub and a public website.">
@@ -106,6 +107,7 @@
             works.”</p>
           <p>Your external agent can work with Midom’s WebMCP site tools to read authorized page context, propose
             changes for review, or apply draft edits. You preview the result and keep the conversation moving.</p>
+          <div class="memo-guidance" style="border-left:2px solid #85e4ff;padding-left:18px;margin:25px 0"><h3 style="font-size:23px;line-height:1.2;margin-bottom:12px">Give the conversation a deeper brief.</h3><p>Midom Memos are text documents that can hold extended background, source material and instructions for the page you want to create. Select the Project Memos your external agent may read, so it can work from your audience brief, brand guidance, detailed explanations or page requirements.</p><p class="muted">Choose the guidance under your Project’s <b>Agent References</b>, then enable <b>Allow selected Project Memos</b> for the agent session. You share the selected guidance—not every document in the workspace. Memo access supplies context; publishing remains a separate permission.</p></div>
           <p class="muted">The resident knowledge assistant can explain the editor, too. Manual source editing remains
             available.</p>
         </div>
@@ -131,6 +133,7 @@
         </div>
       </div>
     </section>
+<div class="wrap agent-evidence"><details><summary>See the real controls: authorize your external agent <span>+</span></summary><figure><img id="agent-access-image" src="../assets/midom-agent-controls.jpg" alt="Midom External Agent Access controls showing Read Only, Review Proposals and Direct Draft Edits, a time limit, and optional resource access." width="1878" height="318"><figcaption><p>Choose how your agent may participate: inspect the page, submit changes for your review, or edit drafts directly. Set a duration and select which resources it may see. This capture shows this page’s authoring session; its remaining time and permissions are not a recommended default.</p><button class="enlarge-shot" type="button" data-enlarge="agent-access-image">Enlarge screenshot ↗</button></figcaption></figure></details></div>
     <section class="section wrap" id="privacy">
       <div class="two-col privacy-grid">
         <div class="shell-art" role="img"
@@ -230,6 +233,7 @@
         </div>
       </div>
     </section>
+<section class="section wrap real-process" id="real-process" aria-labelledby="real-process-title"><div class="section-heading"><div><p class="eyebrow">THE REAL THING · CAPTURED NOVEMBER 22, 2026</p><h2 id="real-process-title">This guide made<br>the trip.</h2></div><p>Created in Midom. Exported to a repository.<br>Deployed by GitHub Pages.</p></div><p class="evidence-intro">Follow the actual screens from this page’s first successful export. Each screen answers a different question: did the files arrive, did GitHub deploy them, and does the finished page work?</p><div class="evidence-links"><a href="https://method-intelligence.github.io/Midom-webpage-publishing/" target="_blank" rel="noopener">Visit the live example ↗</a><a href="https://github.com/Method-Intelligence/Midom-webpage-publishing" target="_blank" rel="noopener">Explore the repository ↗</a></div><div class="evidence-browser"><div class="evidence-tabs" role="group" aria-label="Choose a real publishing screenshot"><button type="button" data-evidence="0" aria-pressed="true"><span>01</span> Files sent</button><button type="button" data-evidence="1" aria-pressed="false"><span>02</span> In GitHub</button><button type="button" data-evidence="2" aria-pressed="false"><span>03</span> Deployment</button><button type="button" data-evidence="3" aria-pressed="false"><span>04</span> Public page</button></div><figure class="evidence-figure"><div class="evidence-image-wrap"><img id="evidence-image" src="../assets/midom-export-success.jpg" alt="Midom Export To GitHub Pages panel showing the chosen repository and the message Files reached GitHub." width="2080" height="400" loading="lazy"></div><figcaption><div aria-live="polite"><p class="tiny-label" id="evidence-label">01 / MIDOM EXPORT</p><h3 id="evidence-title">The files have reached GitHub.</h3><p id="evidence-copy">Midom confirms the repository update. The owner, repository and branch identify exactly where the saved page was sent. This message is the handoff to GitHub, not the end of deployment.</p></div><button class="enlarge-shot" type="button" data-enlarge="evidence-image">Enlarge screenshot ↗</button></figcaption></figure></div><div class="evidence-checks"><p><span>✓</span> Real exported files</p><p><span>✓</span> Successful Pages deployment</p><p><span>✓</span> Independently hosted page</p></div><p class="micro">Screenshots document the first release. Later revisions may change the live page and repository. The deployment duration shown is one observed run, not a promised publishing time.</p></section>
     <section class="section wrap" id="destinations">
       <div class="section-heading">
         <div>
@@ -300,6 +304,7 @@
         class="text-link" href="https://midombot.com/b1/docs2/landing-pages-and-web-pages" target="_blank"
         rel="noopener">Read the publishing guide ↗</a>
     </section>
+<dialog id="screenshot-dialog" aria-labelledby="screenshot-dialog-title"><div class="screenshot-dialog-toolbar"><h2 id="screenshot-dialog-title">Screenshot detail</h2><button type="button" id="close-screenshot">Close ×</button></div><p id="screenshot-dialog-description"></p><div class="screenshot-dialog-scroll"><img id="screenshot-dialog-image" alt=""></div><p class="micro">Scroll to inspect the original screenshot. Press Escape or Close to return.</p></dialog>
   </main>
   <footer class="wrap"><span class="brand">MIDOM <span class="brand-sub">PROJECT AI</span></span>
     <p>Conversational creation. Reviewable progress. Deliberate publishing.</p><a href="#top">Back to top ↑</a>
