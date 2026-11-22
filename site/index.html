@@ -12,14 +12,14 @@
   <script src="screenshots.js" defer></script>
 <style>
 .early-proof{margin-top:34px;margin-bottom:24px;padding:28px;border:1px solid #85e4ff42;border-radius:20px;background:radial-gradient(ellipse at top right,#174e7459,transparent 75%),#0a2033}.early-proof-intro{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:end}.early-proof h2{font-size:clamp(25px,3vw,38px);line-height:1.1;margin:10px 0 0}.early-proof-intro>p{color:#bfd2df;font-size:16px;line-height:1.6;margin:0}.early-proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:24px}.early-proof figure{margin:0;min-width:0;padding:16px;border:1px solid #85e4ff30;border-radius:12px;background:#071827}.early-proof img{display:block;width:100%;height:180px;object-fit:contain;background:#eef0f4;border-radius:6px;margin:13px 0}.early-proof figcaption{font-size:14px;line-height:1.6;color:#bfd2df}.early-proof a{color:#a2edff}.memo-example{padding:18px 20px;background:#123750;border:1px solid #85e4ff42;border-radius:12px;margin:18px 0}.memo-example blockquote{margin:10px 0;font-size:19px;line-height:1.5;color:#fff}.memo-example p{font-size:14px;line-height:1.6;margin:0;color:#bfd2df}@media(max-width:700px){.early-proof-intro,.early-proof-grid{grid-template-columns:1fr}.early-proof{padding:20px}.early-proof img{height:160px}}
+.nav .brand{gap:10px;letter-spacing:0;text-decoration:none;align-items:center}.midom-logo-letter{font-family:Arial,Helvetica,sans-serif;font-size:72px;font-weight:800;line-height:.78;letter-spacing:-.06em}.midom-logo-words{display:flex;flex-direction:column;gap:4px;line-height:1}.midom-logo-name{font-size:25px;font-weight:800;letter-spacing:.015em}.midom-logo-tagline{font-size:25px;font-weight:800;letter-spacing:.015em}
 </style>
 </head>
 
 <body>
   <a class="skip" href="#walkthrough">Skip to the walkthrough</a>
   <header class="nav wrap"><a class="brand" href="#top"
-      aria-label="Midom home on this page"><span class="brandmark">m<span>·</span></span>
-      MIDOM<span class="brand-sub">WEB CREATION</span></a>
+      aria-label="Midom home on this page"><span class="midom-logo-letter" aria-hidden="true">M</span><span class="midom-logo-words"><span class="midom-logo-name">Midom</span><span class="midom-logo-tagline">Project AI</span></span></a>
     <nav aria-label="Page navigation"><a href="#walkthrough">How it works</a><a href="#privacy">Your control</a><a
         class="nav-cta" href="#github">GitHub Pages ↗</a></nav>
   </header>
@@ -107,7 +107,8 @@
         <ol id="all-steps"></ol>
       </details>
     </section>
-    <section class="section conversation-section" id="conversation">
+    <section class="section wrap" id="cost" aria-labelledby="cost-title"><div class="two-col"><div><p class="eyebrow">MORE OF YOUR BUDGET GOES INTO THE IDEA</p><h2 id="cost-title">Give your agent a shorter path<br><span class="light-blue">from idea to page.</span></h2><p class="body-large">Your AI agent can build a web page. The practical question is how much work—and token spend—it takes to get there.</p></div><div><p>Midom’s WebMCP tools give your agent structured access to the page context and editing actions you authorize. Selected Memos can supply the brief. Existing templates provide a starting point. Together, they can reduce the repeated discovery, setup and back-and-forth that consume your agent budget.</p><p>You also get a place to preview the result, save a paper trail of page revisions, and control the audience through Midom’s privacy levels. Those controls are part of the workflow as your page takes shape.</p><div class="memo-example"><span class="tiny-label">LESS REPETITION. MORE CONTROL.</span><p>Spend the conversation refining your message, with selected context, saved checkpoints and a deliberate path to publication.</p></div><p class="micro">Actual token use and cost depend on your agent, model, page complexity and number of revisions. Savings vary; no fixed reduction is promised.</p></div></div></section>
+<section class="section conversation-section" id="conversation">
       <div class="wrap two-col">
         <div>
           <p class="eyebrow">A COLLABORATOR AT THE KEYBOARD</p>
