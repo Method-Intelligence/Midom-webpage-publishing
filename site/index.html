@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description"
+    content="Create interactive web pages conversationally in Midom. Preview, save a reviewable history, and export supported pages directly to your GitHub Pages repository.">
+  <title>From conversation to public page | Midom</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <a class="skip" href="#walkthrough">Skip to the walkthrough</a>
+  <header class="nav wrap"><a class="brand" href="#top"
+      aria-label="Midom home on this page"><span class="brandmark">m<span>·</span></span>
+      MIDOM<span class="brand-sub">WEB CREATION</span></a>
+    <nav aria-label="Page navigation"><a href="#walkthrough">How it works</a><a href="#privacy">Your control</a><a
+        class="nav-cta" href="#github">GitHub Pages ↗</a></nav>
+  </header>
+  <main id="top">
+    <section class="hero wrap">
+      <div>
+        <p class="eyebrow"><span class="dot"></span> YOUR IDEAS. YOUR AGENT. YOUR PUBLIC PAGE.</p>
+        <h1>Start with a<br>conversation.<br><span>Make it a website.</span></h1>
+        <p class="lead">Create and refine interactive pages in Midom with your own AI agent. Keep a trail of saved
+          versions. Then share inside Midom—or export directly to GitHub Pages.</p>
+        <div class="actions"><a class="button primary" href="#walkthrough">Explore the process <span>↓</span></a><a
+            class="text-link" href="#github">See the GitHub path ↗</a></div>
+        <p class="micro">Work privately. Review deliberately. Publish when ready.</p>
+      </div>
+      <div class="hero-art" role="img"
+        aria-label="Illustration: a conversation becomes a saved Midom page, then an export to GitHub and a public website.">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="float-label">AN IDEA, MADE TANGIBLE</div>
+        <div class="chat-card"><span class="tiny-label">YOU → YOUR EXTERNAL AGENT</span>
+          <p>“Turn this idea into a clear,<br>interactive web page.”</p>
+          <span class="chat-rule"></span><small>Read context · shape the draft · refine together</small>
+        </div>
+        <div class="art-connector">↓ <span>Authorized WebMCP tools</span></div>
+        <div class="browser-card">
+          <div class="browser-bar"><i></i><i></i><i></i><span>YOUR MIDOM PAGE</span><b>Saved checkpoint</b></div>
+          <div class="mini-page">
+            <div><span class="mini-pill">YOUR STORY, INTERACTIVE</span><strong>An idea worth<br>sharing.</strong>
+              <div class="mini-lines"></div>
+              <div class="mini-button"></div>
+            </div>
+            <div class="mini-visual">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="export-chain">
+          <span>Midom</span><b>→</b><span>GitHub repo</span><b>→</b><span class="live-label">Public page ↗</span></div>
+        <p class="art-caption">Concept illustration · public release is a separate review</p>
+      </div>
+    </section>
+    <div class="proof-strip wrap">
+      <span><b>01</b> Conversational creation</span><span><b>02</b> Reviewable checkpoints</span><span><b>03</b> Independent public hosting</span>
+    </div>
+    <section class="section wrap" id="walkthrough">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE PROCESS</p>
+          <h2>One idea.<br>Six clear steps.</h2>
+        </div>
+        <p>You bring the purpose and judgment.<br>Midom gives the work a place to take shape.</p>
+      </div>
+      <div class="walkthrough">
+        <div class="step-nav" role="group" aria-label="Choose a walkthrough step">
+          <button data-step="0" aria-pressed="true"><span>01</span> Choose a starting point <b>↗</b></button><button data-step="1" aria-pressed="false"><span>02</span> Create through conversation <b>↗</b></button><button data-step="2" aria-pressed="false"><span>03</span> Preview and refine <b>↗</b></button><button data-step="3" aria-pressed="false"><span>04</span> Save your paper trail <b>↗</b></button><button data-step="4" aria-pressed="false"><span>05</span> Choose your audience <b>↗</b></button><button data-step="5" aria-pressed="false"><span>06</span> Publish beyond Midom <b>↗</b></button>
+        </div>
+        <article class="step-panel" aria-label="Selected walkthrough step">
+          <div class="step-top">
+            <span id="step-count" class="tiny-label">STEP 01 / 06</span><span class="demo-badge">Process illustration</span>
+          </div>
+          <div id="step-art" class="step-art" aria-hidden="true"></div>
+          <div aria-live="polite" aria-atomic="true">
+            <h3 id="step-title">Choose a starting point</h3>
+            <p id="step-copy">Begin with an editable example: a step-by-step guide, image comparison, quiz, infographic
+              or 3D scene. Give it a title and create an unpublished draft.</p>
+            <div class="outcome"><span>YOU LEAVE WITH</span>
+              <p id="step-outcome">A real starting page, ready to make your own.</p>
+            </div>
+          </div>
+          <div class="step-controls">
+            <button id="previous" aria-label="Previous step">←</button><span id="step-position">1 of 6</span><button id="next" aria-label="Next step">→</button>
+          </div>
+        </article>
+      </div>
+      <details class="all-steps">
+        <summary>Prefer to read straight through? Show all six steps <span>+</span></summary>
+        <ol id="all-steps"></ol>
+      </details>
+    </section>
+    <section class="section conversation-section" id="conversation">
+      <div class="wrap two-col">
+        <div>
+          <p class="eyebrow">A COLLABORATOR AT THE KEYBOARD</p>
+          <h2>Say what you mean.<br><span class="light-blue">Shape what you see.</span></h2>
+          <p class="body-large">“Make the opening clearer.” “Add an interactive comparison.” “Show how publishing
+            works.”</p>
+          <p>Your external agent can work with Midom’s WebMCP site tools to read authorized page context, propose
+            changes for review, or apply draft edits. You preview the result and keep the conversation moving.</p>
+          <p class="muted">The resident knowledge assistant can explain the editor, too. Manual source editing remains
+            available.</p>
+        </div>
+        <div class="dialogue">
+          <div class="dialogue-row"><span class="avatar">YOU</span>
+            <div><small>THE DIRECTION</small>
+              <p>“Explain this to someone who has never published a web page. Use our blue visual style.”</p>
+            </div>
+          </div>
+          <div class="dialogue-row"><span class="avatar agent">AI</span>
+            <div><small>YOUR EXTERNAL AGENT</small>
+              <p>Reads the permitted context, adapts the page, and saves an authorized draft revision.</p>
+              <div class="tool-chip">WebMCP <span>context → source → draft</span></div>
+            </div>
+          </div>
+          <div class="dialogue-row"><span class="avatar">YOU</span>
+            <div><small>THE JUDGMENT</small>
+              <p>Preview it. Ask for another change. Decide when it is ready for outside eyes.</p>
+            </div>
+          </div>
+          <p class="micro">Illustrative exchange, not a transcript. Agent access is optional, scoped and time-limited.
+            Draft access does not grant publishing permission.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section wrap" id="privacy">
+      <div class="two-col privacy-grid">
+        <div class="shell-art" role="img"
+          aria-label="Conceptual privacy shells: organization, project, and page audience. Public release is a deliberate outward step.">
+          <div class="shell outer"><span>ORGANIZATION</span>
+            <div class="shell middle"><span>PROJECT</span>
+              <div class="shell inner">
+                <span>PAGE AUDIENCE</span><strong>Your work.<br>Your review.</strong><small>Unpublished draft</small>
+              </div>
+            </div>
+          </div>
+          <div class="shell-exit">Review selected work <b>→</b> Public release</div>
+        </div>
+        <div>
+          <p class="eyebrow">PRIVACY SHELLS. DELIBERATE RELEASE.</p>
+          <h2>A private place<br>to get it right.</h2>
+          <p class="body-large">Work within the organization and project context. Choose who can see the published page.
+          </p>
+          <p>Drafts, member-facing pages and public pages serve different purposes. Publishing selected work does not
+            open the rest of your workspace.</p>
+          <p class="muted">This is a conceptual view of Midom’s privacy boundaries. A page’s publication status and
+            audience are separate settings; GitHub export is a separate public release.</p>
+        </div>
+      </div>
+      <div class="trail">
+        <div>
+          <p class="eyebrow">THE PAPER TRAIL</p>
+          <h3>Progress you can return to.</h3>
+        </div>
+        <ol>
+          <li><span>01</span><b>Draft edits</b><small>Try and refine</small></li>
+          <li><span>02</span><b>Saved checkpoints</b><small>Keep milestones</small></li>
+          <li><span>03</span><b>Revision review</b><small>Inspect the version</small></li>
+          <li><span>04</span><b>Published revision</b><small>Release deliberately</small></li>
+        </ol>
+        <p>Later edits stay separate from the published version until you publish an update. Midom’s revision history
+          records saved page versions; conversations in an external agent’s app remain with that provider.</p>
+      </div>
+    </section>
+    <section class="section github-section" id="github">
+      <div class="wrap">
+        <div class="github-intro">
+          <p class="eyebrow">FEATURED PUBLISHING PATH</p>
+          <h2>Made in Midom.<br><span>Live on GitHub Pages.</span></h2>
+          <p class="lead">Send a supported saved page and its bound Project media directly to your GitHub repository.
+            GitHub Pages can serve the finished page independently of Midom.</p>
+        </div>
+        <div class="publish-flow" aria-label="GitHub publishing flow">
+          <div><span class="flow-icon">m·</span><small>CREATE & REFINE</small>
+            <h3>Midom</h3>
+            <p>Your saved page<br>and supported media</p>
+          </div><span class="flow-arrow" aria-hidden="true">→</span>
+          <div><span class="flow-icon">⌘</span><small>REVIEW & EXPORT</small>
+            <h3>Your repository</h3>
+            <p>The destination you choose<br>on GitHub</p>
+          </div><span class="flow-arrow" aria-hidden="true">→</span>
+          <div class="flow-public"><span class="flow-icon">↗</span><small>DEPLOY & SHARE</small>
+            <h3>Your public page</h3>
+            <p>A GitHub-hosted address<br>for outside eyes</p>
+          </div>
+        </div>
+        <div class="github-steps">
+          <article><span>01 / SAVE</span>
+            <h3>Choose the version.</h3>
+            <p>Save a checkpoint. Export uses the latest saved revision, so your unsaved edits are never silently
+              included.</p>
+          </article>
+          <article><span>02 / REVIEW</span>
+            <h3>Know what goes out.</h3>
+            <p>On the Interactive Web Pages index, select the page, owner, repository and branch. Choose
+              <b>Review Export</b> and inspect every listed file.</p>
+          </article>
+          <article><span>03 / RELEASE</span>
+            <h3>Confirm, then visit.</h3>
+            <p>Confirm your right to publish the files publicly and choose <b>Publish To GitHub</b>. Check GitHub’s
+              deployment, then test the public page.</p>
+          </article>
+        </div>
+        <details class="setup">
+          <summary>First-time setup: connect a GitHub destination <span>+</span></summary>
+          <ol>
+            <li>Create a dedicated repository with an initial commit and a writable branch. A README is enough to start.
+            </li>
+            <li>Configure GitHub Pages to deploy that branch from the repository root.</li>
+            <li>Install the Midom GitHub App for that repository, with permission to read and write repository contents.
+            </li>
+            <li>In Midom’s <b>Export To GitHub Pages</b> panel, choose <b>Connect GitHub</b> and authorize your account.
+              App installation and account authorization are both needed.</li>
+          </ol>
+          <p>An organization administrator may need to help. GitHub export must be enabled for your Midom installation.
+          </p>
+        </details>
+        <div class="update-note"><span>↻</span>
+          <p><b>Same page. Next chapter.</b> Save a new checkpoint, review another export, and update the same
+            destination. Midom preserves unrelated repository files and flags changes to previously exported files for
+            review.</p>
+        </div>
+      </div>
+    </section>
+    <section class="section wrap" id="destinations">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">CHOOSE THE RIGHT DESTINATION</p>
+          <h2>Who is it for?</h2>
+        </div>
+        <p>Keep a team tool close.<br>Send a finished story further.</p>
+      </div>
+      <div class="destination-grid">
+        <article><span class="tiny-label">MIDOM / MEMBERS</span>
+          <h3>Inside the project.</h3>
+          <p>Publish for authorized Project members or learners. Useful for internal guides, training and shared work.
+          </p>
+        </article>
+        <article><span class="tiny-label">MIDOM / PUBLIC</span>
+          <h3>Outside eyes, Midom-hosted.</h3>
+          <p>Review a saved revision for a public audience and share its published Midom link.</p>
+        </article>
+        <article class="featured"><span class="tiny-label">GITHUB PAGES / PUBLIC</span>
+          <h3>A standalone public page.</h3>
+          <p>Export one supported page to your GitHub repository for hosting independently of Midom.</p><a
+            href="#github">Explore this path ↗</a>
+        </article>
+      </div>
+    </section>
+    <section class="section wrap faq">
+      <p class="eyebrow">A FEW USEFUL DISTINCTIONS</p>
+      <h2>Before you go live.</h2>
+      <details>
+        <summary>Can everything in Midom be exported to GitHub Pages?<span>+</span></summary>
+        <p>The initial export supports one Interactive Web Page, supported bound Project media and supported pinned
+          libraries, including Chart.js, Mermaid, Vega-Lite and Three.js. Known Midom-only navigation, live widgets,
+          converted legacy runtime pages and unsupported library bindings are blocked during review. A connected page
+          set is not included.</p>
+      </details>
+      <details>
+        <summary>Does saving a checkpoint publish my work?<span>+</span></summary>
+        <p>No. A checkpoint saves a page version. Publishing in Midom and exporting to GitHub each require their own
+          review and release action. Exporting to GitHub does not change the page’s Midom publication status or
+          audience.</p>
+      </details>
+      <details>
+        <summary>Can an external AI agent publish for me?<span>+</span></summary>
+        <p>Editor-only access lets an agent inspect, propose or edit drafts according to the permission you grant.
+          Project page work can offer separate publishing permission when your organization allows it; some pages still
+          require human publication. GitHub export has its own review and public-publication confirmation. Authorizing
+          draft editing is not authorization to publish.</p>
+      </details>
+      <details>
+        <summary>What should I check before making a page public?<span>+</span></summary>
+        <p>Review the source, scripts and media for confidential material and confirm publication rights. Anything
+          delivered in the page can be public, including hidden display states. Author notes are not automatically
+          exported. Test links, media and interactions on the deployed site. A successful repository update is not proof
+          that GitHub has finished deploying.</p>
+      </details>
+      <details>
+        <summary>What if someone edits the exported files on GitHub?<span>+</span></summary>
+        <p>Midom flags modified or deleted exported files for review. You can stop to retain the GitHub edits, or
+          approve the proposed copies and page update. Copies under user-modified may also be public. Review again if
+          the branch changes before publishing.</p>
+      </details>
+    </section>
+    <section class="closing wrap">
+      <p class="eyebrow">MAKE SOMETHING WORTH SHARING</p>
+      <h2>Your next page<br>can start with a sentence.</h2>
+      <p>Bring an idea. Build it together. Choose its moment to go public.</p><a class="button primary"
+        href="https://midombot.com/b1/home" target="_blank" rel="noopener">Explore Midom <span>↗</span></a><a
+        class="text-link" href="https://midombot.com/b1/docs2/landing-pages-and-web-pages" target="_blank"
+        rel="noopener">Read the publishing guide ↗</a>
+    </section>
+  </main>
+  <footer class="wrap"><span class="brand">MIDOM <span class="brand-sub">PROJECT AI</span></span>
+    <p>Conversational creation. Reviewable progress. Deliberate publishing.</p><a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+
+</html>
